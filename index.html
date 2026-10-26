@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>عهد | Amr Mindset</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eceff2;--sf:#fff;--tx:#141b22;--mu:#5f6b76;--ln:#d5dbe1;--ac:#8a6a1f;--a2:#f3ecd8;--rd:#b2432f;--on:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141a;--sf:#171e26;--tx:#ece7dc;--mu:#8f9aa5;--ln:#28323d;--ac:#c9a24b;--a2:#2a2415;--rd:#d0624d;--on:#1a1405}}
+:root[data-theme="dark"]{--bg:#0f141a;--sf:#171e26;--tx:#ece7dc;--mu:#8f9aa5;--ln:#28323d;--ac:#c9a24b;--a2:#2a2415;--rd:#d0624d;--on:#1a1405}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Cairo,system-ui,sans-serif;line-height:1.75;font-size:16px}
+#app{max-width:560px;margin:0 auto;padding:14px 14px 150px}
+h2{font-size:19px;font-weight:800;margin:0 0 4px}h3{font-size:15px;margin:16px 0 6px}
+.brand{font-size:56px;font-weight:800;color:var(--ac);text-align:center;line-height:1.2;margin-top:18px}
+.tg{text-align:center;color:var(--mu);margin:0 0 18px}
+.card{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:16px;margin-bottom:12px}
+.gd{color:var(--mu);font-size:14px;margin:0 0 10px}.mu{color:var(--mu);font-size:13px}
+.hero{display:flex;align-items:center;gap:16px;padding:14px 4px 18px}
+.dn{font-size:64px;font-weight:800;color:var(--ac);line-height:1;min-width:84px;text-align:center;border-inline-end:2px solid var(--ln);padding-inline-end:16px}
+label{display:block;font-weight:600;font-size:15px;margin:16px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{flex:1 1 auto;min-width:64px;border:1.5px solid var(--ln);background:var(--bg);color:var(--tx);padding:10px 12px;border-radius:12px;font:inherit;font-size:14px}
+.chip.on{background:var(--ac);border-color:var(--ac);color:var(--on);font-weight:800}
+.btn{display:block;width:100%;margin-top:16px;padding:14px;border:0;border-radius:14px;background:var(--ac);color:var(--on);font:inherit;font-weight:800;font-size:17px}
+.btn.alt{background:transparent;color:var(--tx);border:1.5px solid var(--ln);font-weight:600;font-size:15px}
+input[type=text],textarea,select{width:100%;padding:12px;border:1.5px solid var(--ln);border-radius:12px;background:var(--bg);color:var(--tx);font:inherit}
+textarea{min-height:84px;resize:vertical}
+input[type=range]{width:100%;accent-color:var(--ac)}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+output{font-weight:800;color:var(--ac);min-width:26px;text-align:center}
+.ins{border-inline-start:4px solid var(--ac);background:var(--a2);padding:10px 12px;border-radius:10px;margin:10px 0;font-size:14px}
+.note{border-inline-start:4px solid var(--rd);background:var(--bg);padding:10px 12px;border-radius:10px;margin-bottom:12px;font-size:14px}
+.bar{height:8px;background:var(--ln);border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ac)}
+.item{margin:10px 0;font-size:14px}.item .row{margin-bottom:3px}
+.hrs{display:flex;direction:ltr;align-items:flex-end;gap:2px;height:80px}.hrs i{flex:1;background:var(--ac);border-radius:3px 3px 0 0;min-height:2px}
+.hl{display:flex;direction:ltr;justify-content:space-between;font-size:11px;color:var(--mu)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}.stats b{display:block;font-size:26px;font-weight:800;color:var(--ac)}
+.dots{display:flex;gap:6px;justify-content:center;margin:6px 0}.dots i{width:28px;height:4px;border-radius:4px;background:var(--ln)}.dots i.on{background:var(--ac)}
+.rd{width:100%;max-width:320px;display:block;margin:auto}.rg{fill:none;stroke:var(--ln)}.rdt{fill:var(--a2);stroke:var(--ac);stroke-width:2}.rsf{fill:none;stroke:var(--mu);stroke-dasharray:4 3;stroke-width:1.5}.rl{fill:var(--tx);font-size:11px;font-family:inherit}
+details{margin-top:14px}summary{font-weight:600;color:var(--ac);padding:6px 0}
+#bar{position:fixed;inset:auto 0 0 0;display:flex;background:var(--sf);border-top:1px solid var(--ln);padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
+#bar button{flex:1;border:0;background:none;color:var(--mu);font:inherit;font-size:14px;padding:13px 4px}
+#bar button.on{color:var(--ac);font-weight:800;box-shadow:inset 0 3px 0 var(--ac)}
+#sos{position:fixed;inset-inline-start:14px;bottom:calc(64px + env(safe-area-inset-bottom,0px));background:var(--rd);color:#fff;border:0;border-radius:99px;padding:12px 20px;font:inherit;font-weight:800;z-index:6;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.ob #bar,.ob #sos{display:none}
+#ov{position:fixed;inset:0;background:var(--bg);z-index:20;padding:calc(20px + env(safe-area-inset-top,0px)) 18px 30px;overflow:auto;display:none}#ov.show{display:block}
+#tm{font-size:68px;font-weight:800;text-align:center;color:var(--ac);direction:ltr;line-height:1.2}
+#toast{position:fixed;bottom:120px;left:50%;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:8px 16px;border-radius:99px;font-size:14px;opacity:0;transition:opacity .2s;z-index:30;pointer-events:none}#toast.show{opacity:1}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+</style>
+</head>
+<body>
+<div id="app"><div id="main"></div></div>
+<nav id="bar"></nav>
+<button id="sos">حسيت بـ urge؟</button>
+<div id="ov"></div>
+<div id="toast"></div>
+<script>
+const K='ahd_v1',$=id=>document.getElementById(id),p2=n=>String(n).padStart(2,'0');
+function dk(d){return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate())}
+function today(){return dk(new Date())}
+function D0(){return{c:{},t:[],r:{},w:[],ob:0,why:'',habits:[],self:{},alts:[],contact:'',plans:[],start:today()}}
+let S=null;try{S=JSON.parse(localStorage.getItem(K))}catch(e){}
+S=Object.assign(D0(),S||{});
+function save(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){toast('التخزين مش شغال هنا، خد نسخة احتياطية من تبويب أنا')}}
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2400)}
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:0,lines=s=>s.split('\n').map(x=>x.trim()).filter(Boolean);
+function weekKey(){const d=new Date();d.setDate(d.getDate()-((d.getDay()+1)%7));return dk(d)}
+function dayN(){return Math.max(1,Math.floor((new Date(today())-new Date(S.start))/864e5)+1)}
+const TABS=[['t','اليوم'],['g','محفز'],['a','تحليلي'],['s','أنا']];
+const AX=[['sl','نومك'],['di','انضباطك'],['mo','مزاجك'],['en','طاقتك'],['st','تحكمك في الضغط']];
+const RK=[[0,'بداية'],[7,'ثابت'],[21,'صلب'],[45,'حديد'],[90,'جبل']];
+const SUG=['صلاة الفجر في وقتها','تمرين ولو ١٥ دقيقة','نوم قبل ١٢','ساعة مذاكرة أو شغل مركّزة','الموبايل برّه السرير بالليل','قراءة ٢٠ دقيقة','شرب ميّة كفاية'];
+const MO=['سيء','مش كويس','عادي','كويس','ممتاز'],EN=['منهك','واطية','عادية','كويسة','عالية'],ST=['هادي','خفيف','متوسط','عالي','خانقني'];
+const SL=[['أقل من ٥',4],['٥ لـ ٦',5.5],['٧ لـ ٨',7.5],['٩ أو أكتر',9]],UR=[['مفيش',0],['خفيفة',3],['متوسطة',6],['قوية',9]];
+const FEELS=['ملل','وحدة','توتر','غضب','إحباط','تعب','عار بعد فشل','فضول','مش عارف'],OUT=['قاومت','اتأخرت وعدّت','وقعت'];
+let v='t',step=0,edit=0,OB=[];
+function ch(g,arr,sel,multi){return '<div class="chips" data-g="'+g+'"'+(multi?' data-multi="1"':'')+'>'+arr.map((x,i)=>{const l=Array.isArray(x)?x[0]:x,val=Array.isArray(x)?x[1]:(typeof x=='string'?x:i+1);const on=multi?(sel||[]).includes(val):String(sel)===String(val);return '<button type="button" class="chip'+(on?' on':'')+'" data-v="'+esc(val)+'">'+esc(l)+'</button>'}).join('')+'</div>'}
+function sl(id,l,val){return '<label>'+l+'</label><div class="row"><input type="range" id="'+id+'" min="1" max="10" value="'+val+'"><output id="o_'+id+'">'+val+'</output></div>'}
+function render(){
+const ob=!S.ob;document.body.classList.toggle('ob',ob);
+if(ob){$('main').innerHTML=vOB();$('bar').innerHTML='';return}
+$('bar').innerHTML=TABS.map(([k,n])=>'<button data-tab="'+k+'" class="'+((k==v||(v=='w'&&k=='a'))?'on':'')+'">'+n+'</button>').join('');
+$('main').innerHTML=({t:vT,g:vG,a:vA,s:vS,w:vW})[v]();
+}
+function vOB(){
+const dots='<div class="dots">'+[0,1,2,3].map(i=>'<i class="'+(i<=step?'on':'')+'"></i>').join('')+'</div>',nx=l=>'<button class="btn" data-act="obn">'+l+'</button>';
+if(step==0)return dots+'<div class="brand">عهد</div><p class="tg">اتفاق بينك وبين نفسك. من Amr Mindset</p><div class="card"><h2>الفكرة ببساطة</h2><p>كل يوم بتسجّل يومك في دقيقة. بعد أسبوعين هتشوف نفسك بالأرقام: إيه نقاط قوتك، وإيه اللي بيوقّعك، وفين بالظبط.</p><div class="ins"><b>إزاي بتستخدمه:</b><br>١. كل يوم: ٦ ضغطات تسجّل بيهم يومك.<br>٢. لما تحس بـ urge: دوس الزر الأحمر اللي تحت.<br>٣. كل أسبوع: ٣ أسئلة تراجع بيهم نفسك.</div><p class="mu">بياناتك محفوظة على موبايلك إنت بس، ومحدش يقدر يشوفها.</p></div>'+nx('يلا نبدأ');
+if(step==1)return dots+'<div class="card"><h2>ليه بتعمل ده؟</h2><p class="gd">اكتب جملة واحدة. هتظهرلك وقت ما تكون في أضعف لحظاتك.</p><textarea id="why" placeholder="مثال: عايز أبقى راجل أقدر أعتمد عليه، وأكسب احترامي لنفسي">'+esc(S.why)+'</textarea></div>'+nx('التالي');
+if(step==2)return dots+'<div class="card"><h2>اختار عاداتك</h2><p class="gd">اختار ٣ عادات بس هتتحاسب عليهم كل يوم. تقدر تغيّرهم بعدين من تبويب أنا.</p>'+ch('h',SUG,OB,1)+'</div>'+nx('التالي');
+return dots+'<div class="card"><h2>قيّم نفسك دلوقتي</h2><p class="gd">من ١ لـ ١٠، إنت شايف نفسك فين؟ بعد أسبوعين هنوريك الفرق بين اللي كنت فاكره واللي أرقامك بتقوله.</p>'+AX.map(a=>sl('sf_'+a[0],a[1],5)).join('')+'</div>'+nx('ابدأ عهدك');
+}
+function rank(){const n=Object.keys(S.c).length;let i=0;RK.forEach((r,j)=>{if(n>=r[0])i=j});return[RK[i][1],RK[i+1]?RK[i+1][0]-n:0,n]}
+function vT(){
+const c=S.c[today()],r=rank();
+let o='<div class="hero"><div class="dn">'+dayN()+'</div><div><b style="font-size:18px">يوم في عهدك</b><br><span class="mu">رتبتك: '+r[0]+(r[1]?'، وباقي '+r[1]+' يوم تسجيل للرتبة اللي بعدها':'')+'</span></div></div>';
+const l3=Object.keys(S.c).sort().slice(-3);
+if(l3.length==3&&l3.every(d=>S.c[d].m<=2))o+='<div class="note">مزاجك واطي بقاله كام يوم. ده مش ضعف. كلّم حد قريب منك أو متخصص النهاردة، ومتشيلش الحمل لوحدك.</div>';
+if(!c||edit)return o+ciCard(c||{});
+const nw=(S.w||[]).filter(x=>x.d==today()).length;
+o+='<div class="card"><h2>تمام، يومك اتسجّل ✓</h2><p class="gd">'+(c.u>=6?'النهاردة كان فيه urge قوي. لو لسه موجود دوس الزر الأحمر، ولو حصل محفز سجّله من تبويب محفز.':'كمّل كده. ولو حسيت بـ urge في أي وقت دوس الزر الأحمر.')+'</p>'
++'<h3>إنجاز النهاردة (اختياري)</h3><input type="text" id="win" placeholder="يوم صعب عدّى، حاجة خلّصتها...">'
++'<button class="btn alt" data-act="saveW">'+(nw?'أضف إنجاز تاني':'سجّل الإنجاز')+'</button><button class="btn alt" data-act="edit">عدّل تسجيل النهاردة</button></div>';
+if(!S.r[weekKey()]&&Object.keys(S.c).filter(d=>d>=weekKey()).length>=3)o+='<div class="card"><h2>مراجعة الأسبوع جاهزة</h2><p class="gd">٣ أسئلة بس وتاخد دقيقتين.</p><button class="btn" data-act="gow">ابدأ المراجعة</button></div>';
+if(r[2]>=7&&(!S.bk||(Date.now()-S.bk)>12096e5))o+='<div class="ins">عدّى أسبوع على الأقل. خد نسخة احتياطية من تبويب أنا عشان بياناتك مش تضيع لو غيّرت موبايلك.</div>';
+const ws=(S.w||[]).slice(-3).reverse();
+if(ws.length)o+='<div class="card"><h2>دليل إنك بتتغير</h2>'+ws.map(x=>'<div class="ins">'+esc(x.t)+' <span class="mu">'+x.d+'</span></div>').join('')+'</div>';
+return o;
+}
+function ciCard(d){
+return '<div class="card"><h2>الخطوة الأولى: سجّل يومك</h2><p class="gd">اختار إجابة واحدة لكل سؤال. مفيش إجابة غلط، المهم تكون صادقة.</p>'
++'<label>مزاجك إيه النهاردة؟</label>'+ch('m',MO,d.m)+'<label>طاقتك؟</label>'+ch('e',EN,d.e)+'<label>مستوى الضغط؟</label>'+ch('s',ST,d.st)
++'<label>نمت كام ساعة إمبارح؟</label>'+ch('sl',SL,d.sl)+'<label>أقوى urge حسيت بيه النهاردة؟</label>'+ch('u',UR,d.u)
++(S.habits.length?'<label>إيه اللي عملته من عاداتك؟</label>'+ch('h',S.habits,d.h||[],1):'')
++'<button class="btn" data-act="saveC">حفظ اليوم</button></div>';
+}
+function vG(){
+return '<div class="card"><h2>سجّل محفز</h2><p class="gd">سجّل بعد ما تحس بـ urge سواء قاومت أو وقعت. التسجيل ده بيكشفلك النمط اللي مش شايفه. سؤالين بس مطلوبين.</p>'
++'<label>كنت حاسس بإيه؟ (اختار اللي ينطبق)</label>'+ch('feel',FEELS,[],1)+'<label>النتيجة إيه؟</label>'+ch('out',OUT,'')
++'<details><summary>تفاصيل أكتر (اختياري، بس بتحسّن التحليل)</summary><label>الساعة</label><select id="hr">'+Array.from({length:24},(_,i)=>'<option value="'+i+'"'+(i==new Date().getHours()?' selected':'')+'>'+p2(i)+':00</option>').join('')+'</select>'
++'<label>كنت فين؟</label>'+ch('place',['سريري','الحمام','أوضتي','برّه البيت','الشغل أو الجامعة'],'')+'<label>الجهاز</label>'+ch('dev',['موبايل','لاب','مفيش جهاز'],'')+'<label>كنت لوحدك؟</label>'+ch('alone',['لوحدي','معايا حد'],'')+'<label>إيه اللي ساعدك أو كان هيساعدك؟</label><input type="text" id="hp"></details>'
++'<button class="btn" data-act="saveT">حفظ المحفز</button></div>';
+}
+function sc(){
+const ds=Object.keys(S.c).sort().slice(-14).map(k=>S.c[k]);if(ds.length<5)return null;
+const hb=S.habits.length?avg(ds.map(d=>(d.h||[]).filter(x=>S.habits.includes(x)).length/S.habits.length))*10:Math.min(10,ds.length/14*10);
+return[Math.min(10,avg(ds.map(d=>d.sl))/8*10),hb,avg(ds.map(d=>d.m))*2,avg(ds.map(d=>d.e))*2,(6-avg(ds.map(d=>d.st)))*2]
+}
+function radar(a,b){
+const n=5,pt=(i,x)=>{const g=-Math.PI/2+i*2*Math.PI/n;return[120+Math.cos(g)*78*x/10,110+Math.sin(g)*78*x/10]},po=r=>r.map((x,i)=>pt(i,x).map(q=>q.toFixed(1)).join(',')).join(' ');
+return '<svg viewBox="0 0 240 220" class="rd">'+[2,4,6,8,10].map(l=>'<polygon class="rg" points="'+po(Array(n).fill(l))+'"/>').join('')+'<polygon class="rdt" points="'+po(b)+'"/><polygon class="rsf" points="'+po(a)+'"/>'+AX.map((x,i)=>{const p=pt(i,12.8);return '<text class="rl" text-anchor="middle" x="'+p[0].toFixed(0)+'" y="'+p[1].toFixed(0)+'">'+x[1]+'</text>'}).join('')+'</svg>';
+}
+function vA(){
+const n=S.t.length,days=Object.keys(S.c).length;
+if(!days&&!n)return '<div class="card"><h2>تحليلي</h2><p class="gd">هنا هتشوف نفسك بالأرقام. ابدأ بتسجيل يومك من تبويب اليوم، وبعد ٥ أيام هتظهرلك صورتك.</p></div>';
+const sk=(()=>{const d=new Date();d.setDate(d.getDate()-29);return dk(d)})(),lg=Object.keys(S.c).filter(d=>d>=sk).length,fl=new Set(S.t.filter(x=>x.out=='وقعت'&&x.date>=sk).map(x=>x.date)).size,rs=S.t.filter(x=>x.out!='وقعت').length;
+let o='<div class="card"><h2>أرقامك</h2><p class="gd">آخر ٣٠ يوم.</p><div class="stats"><div><b>'+lg+'</b><span class="mu">يوم مسجّل</span></div><div><b>'+Math.max(0,lg-fl)+'</b><span class="mu">يوم من غير وقوع</span></div><div><b>'+(n?Math.round(rs/n*100):0)+'%</b><span class="mu">مقاومة</span></div></div></div>';
+const d=sc();
+if(d){const a=AX.map(x=>+S.self[x[0]]||5);let g=0,gi=0;a.forEach((x,i)=>{if(Math.abs(x-d[i])>Math.abs(g)){g=x-d[i];gi=i}});
+o+='<div class="card"><h2>صورتك الحقيقية</h2><p class="gd">الخط المنقّط هو رأيك في نفسك. المساحة الملوّنة هي أرقامك آخر ١٤ يوم.</p>'+radar(a,d)+'<div class="ins">'+(Math.abs(g)<1?'تقييمك لنفسك قريب جدًا من الواقع. ده وعي حقيقي.':'قيّمت '+AX[gi][1]+' بـ '+a[gi]+' من ١٠، وأرقامك بتقول '+d[gi].toFixed(1)+'. '+(g>0?'ده أول مكان تشتغل عليه.':'إنت أحسن مما كنت فاكر.'))+'</div></div>';
+}else o+='<div class="card"><h2>صورتك الحقيقية</h2><p class="gd">محتاجة ٥ أيام تسجيل. معاك '+days+'.</p><div class="bar"><i style="width:'+Math.min(100,days*20)+'%"></i></div></div>';
+if(n){
+const f={};S.t.forEach(x=>(x.feel||[]).forEach(k=>{f[k]=f[k]||{n:0,r:0};f[k].n++;if(x.out!='وقعت')f[k].r++}));
+const l=Object.entries(f).sort((a,b)=>b[1].n-a[1].n).slice(0,5),mx=l[0][1].n,w=l.filter(x=>x[1].n>=2).sort((a,b)=>a[1].r/a[1].n-b[1].r/b[1].n)[0];
+o+='<div class="card"><h2>محفزاتك</h2><p class="gd">أكتر المشاعر اللي بتسبق الـ urge، ونسبة مقاومتك مع كل واحد.</p>'+l.map(([k,x])=>'<div class="item"><div class="row"><span>'+esc(k)+' ('+x.n+')</span><span class="mu">قاومت '+Math.round(x.r/x.n*100)+'%</span></div><div class="bar"><i style="width:'+x.n/mx*100+'%"></i></div></div>').join('')+(w?'<div class="ins">أضعف نقطة عندك: '+esc(w[0])+'. اكتب خطة لو-إذن ليها من تبويب أنا.</div>':'');
+const hc=Array(24).fill(0);S.t.forEach(x=>{if(x.hour!=null)hc[x.hour]++});const hm=Math.max(...hc);let bs=0,bi=0;for(let i=0;i<24;i++){const q=hc[i]+hc[(i+1)%24]+hc[(i+2)%24];if(q>bs){bs=q;bi=i}}
+o+='<h3>أوقات الـ urges</h3><div class="hrs">'+hc.map(x=>'<i style="height:'+(hm?x/hm*100:0)+'%"></i>').join('')+'</div><div class="hl"><span>٠</span><span>٦</span><span>١٢</span><span>١٨</span><span>٢٣</span></div><div class="ins">'+Math.round(bs/n*100)+'% من المحفزات بين '+p2(bi)+':00 و '+p2((bi+3)%24)+':00.</div></div>';
+}
+const ds=Object.values(S.c);
+if(days>=14){let pt='';const A=(t,x,y)=>{if(x.length>=3&&y.length>=3)pt+='<div class="ins">'+t+': متوسط الـ urge '+avg(x.map(q=>q.u)).toFixed(1)+' مقابل '+avg(y.map(q=>q.u)).toFixed(1)+'.</div>'};
+A('في الأيام اللي نمت فيها أقل من ٦ ساعات',ds.filter(x=>x.sl<6),ds.filter(x=>x.sl>=6));A('في أيام الضغط العالي',ds.filter(x=>x.st>=4),ds.filter(x=>x.st<4));
+S.habits.forEach(h=>A('لما التزمت بـ «'+esc(h)+'»',ds.filter(x=>(x.h||[]).includes(h)),ds.filter(x=>!(x.h||[]).includes(h))));
+o+='<div class="card"><h2>أنماطك</h2><p class="gd">ارتباطات من بياناتك، مش أحكام.</p>'+(pt||'<p class="mu">محتاج تنوّع أكتر في التسجيل.</p>')+'</div>'}
+else o+='<div class="card"><h2>أنماطك</h2><p class="gd">بتظهر بعد ١٤ يوم تسجيل، عشان الداتا القليلة بتضلّل. معاك '+days+'.</p></div>';
+return o+'<button class="btn alt" data-act="gow">مراجعة الأسبوع</button>';
+}
+function vW(){
+const k=weekKey(),r=S.r[k]||{},dd=Object.keys(S.c).filter(d=>d>=k).length,tt=S.t.filter(x=>x.date>=k),rr=tt.filter(x=>x.out!='وقعت').length;
+return '<div class="card"><h2>مراجعة الأسبوع</h2><p class="gd">الأسبوع ده: '+dd+' يوم مسجّل، '+tt.length+' محفز، قاومت منهم '+rr+'. اكتب باختصار، جملة تكفي.</p>'
++'<label>إيه اللي نجح معاك؟</label><textarea id="r1">'+esc(r.a||'')+'</textarea><label>إيه اللي فشل أو وقّعك؟</label><textarea id="r2">'+esc(r.b||'')+'</textarea><label>تغيير واحد بس للأسبوع الجاي</label><textarea id="r3">'+esc(r.c||'')+'</textarea>'
++'<button class="btn" data-act="saveR">حفظ المراجعة</button></div>'+Object.keys(S.r).sort().reverse().filter(x=>x!=k).slice(0,3).map(x=>'<div class="card"><b>أسبوع '+x+'</b><br>نجح: '+esc(S.r[x].a)+'<br>فشل: '+esc(S.r[x].b)+'<br>التغيير: '+esc(S.r[x].c)+'</div>').join('');
+}
+function vS(){
+return '<div class="card"><h2>خطة طوارئي</h2><p class="gd">اكتبها وإنت هادي. هتظهرلك لما تدوس الزر الأحمر.</p><label>ليه بتعمل ده؟</label><textarea id="sy">'+esc(S.why)+'</textarea><label>بدائل أعملها وقت الـ urge (كل بديل في سطر)</label><textarea id="sa" placeholder="أتوضى وأمشي ١٠ دقايق&#10;أنزل أي مكان فيه ناس">'+esc(S.alts.join('\n'))+'</textarea><label>حد أكلمه</label><input type="text" id="sc" value="'+esc(S.contact)+'"></div>'
++'<div class="card"><h2>خطط لو-إذن</h2><p class="gd">مثال: لو حسيت بملل بالليل وإيدي على الموبايل، هقوم أتوضى وأمشي ١٠ دقايق.</p><textarea id="sp">'+esc(S.plans.join('\n'))+'</textarea></div>'
++'<div class="card"><h2>عاداتي اليومية</h2><p class="gd">كل عادة في سطر. الأفضل ٣ بس.</p><textarea id="sh">'+esc(S.habits.join('\n'))+'</textarea><button class="btn" data-act="saveS">حفظ كل ده</button></div>'
++'<div class="card"><h2>نسخة احتياطية</h2><p class="gd">بياناتك على المتصفح ده بس. لو غيّرت الموبايل أو مسحت بيانات المتصفح هتضيع، فخد نسخة كل فترة واحفظها في ملاحظاتك.</p><button class="btn alt" data-act="exp">نسخ بياناتي</button><textarea id="ex" placeholder="للاستيراد: الصق النسخة هنا واضغط استيراد" style="margin-top:10px"></textarea><button class="btn alt" data-act="imp">استيراد</button><button class="btn alt" data-act="rst" style="color:var(--rd)">مسح كل بياناتي</button></div>';
+}
+let timer=null;
+function sos(){
+const L=900;let left=L;
+$('ov').innerHTML='<h2>خد نفس. الـ urge بيعلى وبيهدى لوحده.</h2><div id="tm">15:00</div><p class="gd" style="text-align:center">كمّل لحد ما التايمر يخلص.</p>'
++(S.why?'<div class="ins"><b>ليه؟</b><br>'+esc(S.why)+'</div>':'')+'<h3>اعمل واحد من دول دلوقتي</h3>'
++(S.alts.length?S.alts:['قوم من مكانك فورًا واتوضى','سيب الموبايل في أوضة تانية','امشي ١٠ دقايق برّه'] ).map(x=>'<div class="ins">'+esc(x)+'</div>').join('')+(S.contact?'<div class="ins"><b>كلّم:</b> '+esc(S.contact)+'</div>':'')
++'<button class="btn" data-act="sosEnd">عدّت، خلصت</button><button class="btn alt" data-act="sosFall">سجّل اللي حصل وأتعلم منه</button>';
+$('ov').classList.add('show');clearInterval(timer);
+timer=setInterval(()=>{left--;$('tm').textContent=p2(Math.floor(left/60))+':'+p2(left%60);if(left<=0){clearInterval(timer);$('tm').textContent='عدّت ✓'}},1000);
+}
+function sc2(){clearInterval(timer);$('ov').classList.remove('show')}
+document.addEventListener('input',e=>{const o=$('o_'+e.target.id);if(o)o.textContent=e.target.value});
+document.addEventListener('click',e=>{
+const c=e.target.closest('.chip');
+if(c){const g=c.parentNode;if(g.dataset.multi)c.classList.toggle('on');else{const w=c.classList.contains('on');g.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));if(!w)c.classList.add('on')}return}
+const tb=e.target.closest('[data-tab]');if(tb){v=tb.dataset.tab;edit=0;render();scrollTo(0,0);return}
+if(e.target.id=='sos'){sos();return}
+const a=e.target.closest('[data-act]');if(!a)return;
+const act=a.dataset.act,sel=g=>[...document.querySelectorAll('[data-g="'+g+'"] .chip.on')].map(x=>x.dataset.v),one=g=>sel(g)[0];
+if(act=='obn'){
+if(step==1){S.why=$('why').value.trim()}
+if(step==2){OB=sel('h')}
+if(step==3){S.habits=OB.slice(0,4);AX.forEach(x=>S.self[x[0]]=+$('sf_'+x[0]).value);S.ob=1;S.start=today();v='t';save();render();scrollTo(0,0);return}
+step++;render();scrollTo(0,0)}
+else if(act=='saveC'){const q=['m','e','s','sl','u'].map(one);if(q.some(x=>x===undefined)){toast('جاوب على كل الأسئلة الأول');return}
+S.c[today()]={m:+q[0],e:+q[1],st:+q[2],sl:+q[3],u:+q[4],h:sel('h')};edit=0;save();toast('اتسجّل يومك');render();scrollTo(0,0)}
+else if(act=='edit'){edit=1;render()}
+else if(act=='saveW'){const x=$('win').value.trim();if(!x)return;S.w.push({t:x,d:today()});save();toast('إنجاز جديد في دليلك');render()}
+else if(act=='saveT'){const f=sel('feel'),o=one('out');if(!f.length||!o){toast('اختار الشعور والنتيجة');return}
+const h=document.getElementById('hr');S.t.push({date:today(),hour:h?+h.value:new Date().getHours(),place:one('place')||'',feel:f,dev:one('dev')||'',alone:one('alone')=='لوحدي',out:o,help:$('hp')?$('hp').value:''});save();toast(o=='وقعت'?'اتسجّل. الوقوع داتا مش فشل، كمّل':'أحسنت، اتسجّل');v='t';render();scrollTo(0,0)}
+else if(act=='gow'){v='w';render();scrollTo(0,0)}
+else if(act=='saveR'){S.r[weekKey()]={a:$('r1').value,b:$('r2').value,c:$('r3').value};save();toast('اتحفظت المراجعة');v='t';render()}
+else if(act=='saveS'){S.why=$('sy').value;S.alts=lines($('sa').value);S.contact=$('sc').value;S.plans=lines($('sp').value);S.habits=lines($('sh').value);save();toast('اتحفظت')}
+else if(act=='exp'){const t=$('ex');t.value=JSON.stringify(S);t.select();S.bk=Date.now();save();try{navigator.clipboard.writeText(t.value);toast('اتنسخت، احفظها في ملاحظاتك')}catch(x){toast('انسخ النص يدويًا')}}
+else if(act=='imp'){try{const d=JSON.parse($('ex').value);if(!d.c||!d.t)throw 0;S=Object.assign(D0(),d);save();toast('اتستورد');render()}catch(x){toast('النص مش نسخة صحيحة')}}
+else if(act=='rst'){if(confirm('هتمسح كل بياناتك نهائيًا. متأكد؟')){S=D0();step=0;save();render()}}
+else if(act=='sosEnd'){sc2();toast('أحسنت يا بطل')}
+else if(act=='sosFall'){sc2();v='g';render()}
+});
+render();
+</script>
+</body>
+</html>
